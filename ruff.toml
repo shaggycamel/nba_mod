@@ -1,13 +1,12 @@
-[tool.ruff]
 line-length = 120
 indent-width = 4
 target-version = "py311"
 
-[tool.ruff.lint]
+[lint]
 select = ["E", "F", "I"]   # pycodestyle, pyflakes, isort
 ignore = []
 fixable = ["ALL"]
 
-[tool.ruff.format]
+[format]
 quote-style = "single"
 indent-style = "space"
