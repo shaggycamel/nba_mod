@@ -1,6 +1,8 @@
 # nba_mod
 
-Kobe public has read only access to all views on the nba database, they are:
+Database credentials are stored in `./database.ini` file.
+
+User: kobe_public has read only access to all views on the nba database, they are:
 
 1. nba.nba_injuries_vw
 1. nba.nba_player_box_score_vw
@@ -12,7 +14,7 @@ Kobe public has read only access to all views on the nba database, they are:
 1. nba.nba_teams_vw
 
 There are more views within the database, but they are relevant to other things. 
-Kobe public does not have acess to tables, or write access anywhere.
+kobe_public does not have acess to tables, or write access anywhere.
 
 # Package mgmt Python
 
