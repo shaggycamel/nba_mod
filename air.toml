@@ -1,0 +1,5 @@
+[format]
+indent_width = 2
+line_ending = "lf"
+magic_comments = true
+exclude = ["renv/", "data-raw/"]
