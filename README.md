@@ -23,10 +23,11 @@ Ensure uv is installed.
 1. Install on Mac with `brew install uv` - unsure windows.
 1. Create an environment `uv venv`
 1. Activate virtual environment ` source .venv/bin/activate`
-1. Scaffold new project `uv init`
-1. Install deps from lock file `uv sync`
+1. Install deps from lockfile `uv sync`
 1. Install new package `uv pip install <pkg>`
-1. Add package to lock file `uv add <pkg>`
+1. Add package to lockfile `uv add <pkg>`
+
+_hint: lockfile is `./pyproject.toml`_
 
 # Package mgmt R
 
@@ -35,9 +36,9 @@ Ensure renv is installed
 1. Install system wide with `install.packages("renv")`
 1. Create an environment `renv::init()`
 1. Environment activated automatically if project set properly in IDE
-1. Install deps from lock file `renv::hydrate()`
+1. Install deps from lockfile `renv::hydrate()`
 1. Install new package `renv::install("<pkg>")`
-1. Add package to lock file `renv::snapshot()`
+1. Add package to lockfile `renv::snapshot()`
 
 # Code formatting
 
